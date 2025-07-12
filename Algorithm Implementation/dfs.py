@@ -22,4 +22,5 @@ graph = {
     'E': ['B', 'F'],
     'F': ['C', 'E']
 }
+
 print(dfs(graph, 'A', 'F'))

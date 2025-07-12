@@ -22,5 +22,7 @@ graph = {
     'E': ['B', 'F'],
     'F': ['C', 'E']
 }
+
 heuristic = {'A': 6, 'B': 4, 'C': 4, 'D': 3, 'E': 2, 'F': 0}
+
 print(heuristic_search(graph, 'A', 'F', heuristic))

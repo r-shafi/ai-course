@@ -1,5 +1,5 @@
 def alpha_beta(game_tree, node, is_max, alpha, beta):
-    if not game_tree[node]:
+    if isinstance(node, int):
         return node
 
     if is_max:

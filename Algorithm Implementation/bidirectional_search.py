@@ -21,7 +21,7 @@ def bidirectional(graph, start, goal):
                 backward_path = backward_visited[node]
                 return path + backward_path[-2::-1]
 
-            for neighbor in graph[node]:
+            for neighbor in graph.get(node, []):
                 if neighbor not in forward_visited:
                     forward_visited[neighbor] = path + [neighbor]
                     forward.append((neighbor, path + [neighbor]))
@@ -32,7 +32,7 @@ def bidirectional(graph, start, goal):
                 forward_path = forward_visited[node]
                 return forward_path + path[-2::-1]
 
-            for neighbor in graph[node]:
+            for neighbor in graph.get(node, []):
                 if neighbor not in backward_visited:
                     backward_visited[neighbor] = path + [neighbor]
                     backward.append((neighbor, path + [neighbor]))

@@ -23,4 +23,5 @@ graph = {
     'E': ['B', 'F'],
     'F': ['C', 'E']
 }
+
 print(bfs(graph, 'A', 'F'))

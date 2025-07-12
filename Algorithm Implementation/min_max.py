@@ -1,5 +1,5 @@
 def min_max(game_tree, node, is_max):
-    if not game_tree[node]:
+    if isinstance(node, int):
         return node
 
     if is_max:

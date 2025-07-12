@@ -34,4 +34,5 @@ graph = {
     'E': ['B', 'F'],
     'F': ['C', 'E']
 }
+
 print(deepening_search(graph, 'A', 'F'))
