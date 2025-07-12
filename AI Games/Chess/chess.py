@@ -42,7 +42,7 @@ computer_wins = 0
 
 
 IMAGES = {}
-image_folder = os.path.join(os.path.dirname(__file__), "images")
+image_folder = os.path.join(os.path.dirname(__file__), "assets")
 piece_to_file = {
     'P': 'Chess_plt60.png', 'p': 'Chess_pdt60.png',
     'R': 'Chess_rlt60.png', 'r': 'Chess_rdt60.png',
