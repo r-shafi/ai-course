@@ -1,12 +1,22 @@
 # AI Course Repository
 
-**Purpose of this course:** This repository serves as a collection of projects and implementations undertaken during the AI course at North East University Bangladesh. It aims to demonstrate understanding of various AI algorithms, their applications in games, and exploration of AI tools.
+---
 
-**What I learned from this course:** Throughout this course, I gained practical experience in implementing fundamental AI algorithms such as search algorithms (BFS, DFS, Best-First Search), adversarial search (Min-Max, Alpha-Beta Pruning), and informed search (AO\*). I also applied these concepts to develop AI-powered games like Nim and Tic-Tac-Toe. Furthermore, the course provided insights into the capabilities and usage of modern AI tools for content creation.
+**Purpose of this course:**
+This repository is a comprehensive collection of projects, implementations, and deliverables from the AI course at North East University Bangladesh. It demonstrates practical understanding of core AI algorithms, their application in games, and the use of modern AI tools for content creation and presentation.
 
-**Duration of this course:** Spring 2025, 5th Semester.
+**What I learned from this course:**
 
-**Course Teacher :** Mr. Razorshi Prozzwal Talukder
+- Implemented and analyzed fundamental AI algorithms (BFS, DFS, Best-First Search, Min-Max, Alpha-Beta Pruning, AO\*).
+- Developed AI-powered games (Nim, Tic-Tac-Toe) using these algorithms.
+- Explored and utilized AI tools for creating presentations and videos.
+- Gained hands-on experience in applying theoretical concepts to practical problems.
+
+**Duration of this course:**
+Spring 2025, 5th Semester.
+
+**Supervisor / Course Teacher:**
+Mr. Razorshi Prozzwal Talukder
 
 ---
 
@@ -38,10 +48,11 @@ _ Images of input and output (where applicable)
 
 This folder hosts AI-powered game implementations.
 
+- `chess.py`
 - `nim.py`
 - `tictactoe.py`
 
-**Note:** Each game will have a dedicated `Readme` file (e.g., `nim/README.md`, `tictactoe/README.md`) providing:
+**Note:** Each game has a dedicated `Readme` file (e.g., `Chess/README.md`, `Nim/README.md`, `TicTacToe/README.md`) providing:
 _ How to run the game file
 _ Any required pre-installed software, libraries, or frameworks
 _ Instructions on how to play the game
@@ -53,9 +64,30 @@ _ Source codes in proper format with comments.
 
 ### **AI Tools Exploration**
 
-This folder contains deliverables demonstrating the exploration and use of AI tools.
+This folder contains deliverables demonstrating the exploration and use of modern AI tools for educational content creation.
 
-This includes:
+**Deliverables:**
 
-- A video (at least 1 minute duration) about the AI course, created using AI tools. This video combines theoretical concepts learned and practical lab tasks (algorithms & games).
-- A presentation slide deck (10-12 slides) on the AI course, also created using AI tools. This presentation covers both theoretical knowledge and lab tasks.
+- **Video:**
+
+  - A video about the AI course, created using AI tools.
+  - The video combines theoretical concepts and practical lab tasks (algorithms & games).
+  - **Process:**
+    - Script generated and refined using ChatGPT and Google Gemini.
+    - Video produced and edited using InVideo AI.
+    - See `AI Tools Exploration/Video/README.md` for details.
+
+- **Presentation Slide Deck:**
+  - A slide deck covering the AI course, created using AI tools.
+  - Slides include both theoretical knowledge and lab tasks.
+  - **Process:**
+    - Content gathered and refined using ChatGPT and Google Gemini.
+    - Slides created and designed using Gemma AI (gemma.app).
+    - See `AI Tools Exploration/Presentation_README.md` for details.
+
+**Tools Used:**
+
+- ChatGPT (OpenAI)
+- Google Gemini
+- InVideo AI
+- Gemma AI
